@@ -186,7 +186,7 @@ img {
 .footer-info {
     width: 262px;
     height: 139px;
-    margin-left: 589px;
+    margin-left: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
