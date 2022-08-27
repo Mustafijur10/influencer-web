@@ -18,6 +18,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     margin-top: 0px;
+    font-weight: 600;
 }
 
 .all-product {
@@ -36,8 +37,9 @@ h1 {
     font-size: 28px;
     margin-top: 16px;
     margin-bottom: 0px;
-    width: 151px;
+    width: 100%;
     height: 40px;
+    font-weight: 500;
 }
 
 .product-price {
@@ -47,6 +49,7 @@ h1 {
     margin-bottom: 0px;
     width: 82px;
     height: 36px;
+    font-weight: 400;
 
 }
 
@@ -186,7 +189,7 @@ img {
 .footer-info {
     width: 262px;
     height: 139px;
-    margin-left: 50%;
+    margin-left: 589px;
     text-align: center;
     display: flex;
     flex-direction: column;
