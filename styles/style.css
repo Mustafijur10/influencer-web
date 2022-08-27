@@ -3,6 +3,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@700&family=Poppins:ital,wght@0,400;1,500&display=swap');
 
+/* Partners */
+
+
+.partners {
+    width: 1110px;
+    height: 110px;
+    margin-left: 165px;
+}
+
+.logos {
+    width: 986.47px;
+    height: 39.61px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-left: 62px;
+    margin-top: 36px;
+}
+
+.alibaba {
+    width: 55.05px;
+    height: 31.06px;
+}
+
+.amazon {
+    width: 84px;
+    height: 25.28px;
+}
+
+.ebay {
+    width: 99.12px;
+    height: 39.61px;
+}
+
+.daraz {
+    width: 84px;
+    height: 26px;
+}
+
+.rakuten {
+    width: 97.06px;
+    height: 28px;
+}
+
+.walmart {
+    width: 111px;
+    height: 26px;
+}
+
+.target {
+    width: 91px;
+    height: 38px;
+}
 
 /*------------------------------- 
          Common Styles 
@@ -28,6 +80,7 @@ h1 {
     flex-direction: column;
     margin-left: 156.5px;
     align-items: center;
+    margin-top: 100px;
 }
 
 
