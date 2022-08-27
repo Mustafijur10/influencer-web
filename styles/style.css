@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@700&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+
+/*------------------------------- 
+         Common Styles 
+------------------------------*/
+.product-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin-top: 0px;
+}
+
+.all-product {
+    Width: 80%;
+    Height: 1662px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 156.5px;
+    align-items: center;
+}
+
+
+
+.product-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    width: 151px;
+    height: 40px;
+}
+
+.product-price {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    width: 82px;
+    height: 36px;
+
+}
+
+.ratting-number {
+    font-size: 14px;
+    width: 122px;
+    height: 32px;
+}
+
+.ratting-star {
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+
+.product-detail {
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 196px;
+    height: 61px;
+}
+
+img {
+    width: 300px;
+    height: 256px;
+}
+
+.products {
+    width: 90%;
+    height: 456px;
+    padding: 14px 17px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.see-more {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #E02C6D;
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 1140px;
+    top: 1600px;
+    margin-top: 50px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
+/*---------------------------------------------
+                  Featured Products 
+------------------------------------------------*/
+.featured-products {
+    Width: 85%;
+    Height: 270px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 129px;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.feature-details {
+    width: 610px;
+    height: 224px;
+
+}
+
+.featured-image {
+    width: 404px;
+    height: 270px;
+
+
+}
+
+.featured-image img {
+    width: 100%;
+}
+
+.featured-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.featured-info {
+    width: 501px;
+    height: 88px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.featured-button {
+    width: 155px;
+    height: 44px;
+    background: #E02C6D;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.featured-button a {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    height: 24px;
+}
+
+/*-----------------------------------------------------
+                            Footer 
+------------------------------------------------------- */
+
+.footer-section {
+    background-color: #0A0826;
+    width: 100%;
+    height: 239px;
+    margin-top: 100px;
+}
+
+.footer-info {
+    width: 262px;
+    height: 139px;
+    margin-left: 589px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 243px;
+    height: 36px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.footer-copyright {
+    width: 262px;
+    height: 24px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.footer-right-reserved {
+    width: 124px;
+    height: 24px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.footer-info p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+
+.footer-icon {
+    color: #D9DBE1;
+    width: 176px;
+    height: 32px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17px;
+}
